@@ -1,0 +1,62 @@
+.productos-contenedor{
+    width: 100%;
+    min-height: 100vh; /*Toma como minimo toda la pantalla*/
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 5rem;
+ 
+
+}
+.contenedor-boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.contenedor-formulario{
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 2rem;
+    width: 28rem;
+    min-height: 30rem;
+
+}
+.titulo{
+    text-transform: uppercase; /*Convertir a mayusculas el texto*/
+    font-weight: 500; /*Grosor a la letra*/
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.boton{
+    text-decoration: none;    
+    color: white;
+    background-color: #3FA120;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+    border-radius: 5px;
+    border: none;
+}
+.boton:hover{
+    color: white;    
+    background-color:#53B633 ;
+}
+.campos{
+    margin: 10px 0;
+}
+.campos p:nth-child(1){
+    font-weight: 500;
+}
